@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(drone-test)
+
+ADD_EXECUTABLE(drone-test main.cpp)
+
+TARGET_LINK_LIBRARIES(drone-test)
